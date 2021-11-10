@@ -1,0 +1,46 @@
+.navbar {
+  background-color: transparent;
+  height: 5rem;
+}
+
+.navbar-data-container {
+  display: flex;
+  flex-direction: row;
+
+}
+.navbar-text {
+  list-style: none;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+}
+.link-name {
+  margin-top: .4rem;
+}
+
+.icon {
+  transform: scale(1.75);
+}
+
+a {
+  text-decoration: none;
+  color: #425a65;
+  font-size: .75rem;
+  font-family: montserrat, sans-serif;
+}
+a:visited {
+  text-decoration: none;
+  color: #425a65;
+}
+
+a:hover {
+
+  color: #3aa4d2;
+}
+
+a:active {
+
+}
